@@ -1,0 +1,8 @@
+{
+  "name": "tally",
+  "description": "tasks.md を守るプラグイン。開始時に未完のタスクを注入し、コミットを出したセッション自身に反映を促す。tasks.md へは書かない。",
+  "version": "0.1.0",
+  "author": {
+    "name": "Anlan"
+  }
+}
