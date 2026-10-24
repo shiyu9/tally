@@ -1,0 +1,20 @@
+{
+  "name": "tally",
+  "owner": {
+    "name": "Anlan"
+  },
+  "metadata": {
+    "description": "tasks.md を守るプラグイン。セッション開始時に未完のタスクを注入し、コミットを出した本人にその場で反映させる"
+  },
+  "plugins": [
+    {
+      "name": "tally",
+      "source": "./plugins/tally",
+      "description": "SessionStart で環境の整備と復元、Stop で作業した本人への反映促し。tasks.md へは書かず、判定部は純関数＋単体試験で固定する。",
+      "version": "0.1.1",
+      "author": {
+        "name": "Anlan"
+      }
+    }
+  ]
+}
